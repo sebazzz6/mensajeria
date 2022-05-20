@@ -1,9 +1,4 @@
 @font-face {
-    font-family: "Roboto Bold";
-    src: url(../css/Roboto-Bold.ttf);
-}
-
-@font-face {
     font-family: "Open Sans Regular";
     src: url(../css/OpenSans-Regular.ttf);
 }
@@ -25,11 +20,12 @@ main {
 .sidebar {
     background-color:white;
     align-self: stretch;           
-    width: 20%;
+    width: 300px;
     display: flex;
     flex-direction: column;
     height: 100vh;
     border-right: 1.5px solid rgb(195, 191, 191);
+    overflow-y: scroll;
 }
   
 .boxChat {
@@ -41,24 +37,30 @@ main {
     align-items: center;
     flex-direction: column;
 }
-.image-heigth{
-    height: 229px;
+
+.logo{
+    height: 250px;
 }
-.main-text-section{
+
+.texto{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.m-p{
+
+.titulo{
     padding-bottom: 0%;
     margin-bottom: 0%;
 }
-.margin-1{   
+
+.parrafo1{   
     margin-top: 4px;
 }
-.margin-2{
+
+.parrafo2{
     margin-top: -9px;
 }
+
 .normalThumbnail{
     height: 55px;
     border-radius: 30px;
@@ -77,28 +79,37 @@ main {
     display: flex;
     flex-direction: row;
 }
+
 .iconos{
     display: flex;
     justify-content: flex-end;
     margin-top: -27px;
 }
+
 .iconos1{
     color: grey;
     font-size: 19px;
     padding-right: 17px;
 }
+
 .iconos2{
     color: grey;
     font-size: 19px;
     padding-right: 15px;
     margin-right: 5px;
 }
-.nombreUsuario, .leyendaUsuario{
+
+.nombreUsuario{
     padding-left: 20px;
 }
+
+.leyendaUsuario{
+    padding-left: 20px;
+}
+
 .leyendaPrincipal{
     color: #828485;
-    font-size: 14px;
+    font-size: 12px;
     margin-left: 90px !important; 
     margin-top: -5px;
 }
@@ -148,5 +159,5 @@ main {
 }
 
 .ultimoMensaje{
-    font-size: 14px;
+    font-size: 13px;
 }
