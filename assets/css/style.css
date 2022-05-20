@@ -38,10 +38,6 @@ main {
     flex-direction: column;
 }
 
-.logo{
-    height: 250px;
-}
-
 .texto{
     display: flex;
     align-items: center;
@@ -160,4 +156,8 @@ main {
 
 .ultimoMensaje{
     font-size: 13px;
+}
+
+.logo{
+    height: 220px;
 }
